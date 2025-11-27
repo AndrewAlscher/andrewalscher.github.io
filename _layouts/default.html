@@ -40,11 +40,11 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/pub.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
-    
+
     <script src="../assets/js/github-stars.js"></script>
     <script type="text/javascript" src="../assets/js/jquery.js"></script>
     <script src="../assets/js/favicon-switcher.js" type="application/javascript"></script>
-    
+
     <script type="text/javascript">
       function toggle_vis(id) {
           var e = document.getElementById(id);
@@ -62,7 +62,7 @@
         x.style.display = "none";
       } else {
         x.style.display = "inline";
-        
+
       }
       }
 
@@ -75,12 +75,12 @@
     }
   }
    </script>
-   
-   
+
+
 
   </head>
   <body>
-    
+
     <div class="topnav">
 
       <a href="{{ site.affiliation_link }}"><img width="120" src="../{{ site.affiliation_logo }}"></a>
@@ -92,9 +92,9 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
         <i class="fa fa-bars"></i>
       </a>
-      
+
     </div>
-    
+
 
     <script src="../assets/js/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
@@ -114,18 +114,22 @@
           height: 30px;
         }
     </style>
-    
+
     <div class="wrapper">
       <header>
-        
+
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        {% if site.position_1 %}
+        <position style="font-size:1.10rem;">{{ site.positio_1 }}</position>
+        <br>
+        {% endif %}
+        {% if site.position_2 %}
+        <position style="font-size:1.10rem;">{{ site.positio_2 }}</position>
         <br>
         {% endif %}
         {% if site.affiliation %}
@@ -139,7 +143,7 @@
         <br>
         <email>{{ site.email2 }}</email>
         {% endif %}
-        
+
         <br>
         <br>
 
@@ -155,7 +159,7 @@
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
+        </a>
         {% endif %}
 
         {% if site.cv_link %}
@@ -201,11 +205,11 @@
               var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
               document.write(showAs);
             </script>
-      </small> 
+      </small>
       {% endif %}
 
       <br>
-      
+
       </section>
       <footer>
         <div style="font: 12px/1.2 Crimson Pro, serif">
