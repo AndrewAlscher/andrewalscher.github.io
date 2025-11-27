@@ -1,4 +1,4 @@
-# Basic Information 
+# Basic Information
 title: Yaoyao Liu
 position: Assistant Professor
 affiliation: University of Illinois
@@ -24,7 +24,7 @@ github_link: https://github.com/yaoyao-liu/
 linkedin: https://www.linkedin.com/in/liuyaoyao/
 twitter: https://twitter.com/YaoyaoLiu1/
 
-# Images 
+# Images
 avatar: https://img.yliu.me/avatar_new.jpg
 
 # Footnotes
@@ -32,9 +32,9 @@ footnote: Feel free to use my website's source code.
 footnote_link: https://github.com/yaoyao-liu/minimal-light
 
 # Analytics
-# Please remove the following lines about analytics services if you fork my project. 
+# Please remove the following lines about analytics services if you fork my project.
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
+# clustrmaps_id:
 
 # The following files will be removed from the generated website.
 exclude:
